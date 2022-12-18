@@ -1,5 +1,6 @@
 import React from "react";
 import HeaderTop from "./HeaderTop";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -13,7 +14,7 @@ const Header = () => {
             <p>VN</p>
           </div>
           <div className="">
-            <p>Làm việc</p>
+            <NavLink to="/login">Làm việc</NavLink>
           </div>
         </div>
       </div>

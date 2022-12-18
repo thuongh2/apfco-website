@@ -8,7 +8,7 @@ const Login = () => {
     <>
       <Header />
       <div class="">
-        <div class=" bg-gradient-to-r from-cyan-500 to-blue-500">
+        <div class="bg-[url('https://res.cloudinary.com/djqfsurdo/image/upload/v1671387672/background_login_kktzgg.png')]">
           <div class="h-full w-[80]">
             <div class="p-5 py-20 lg:p-30 flex justify-center items-center">
               <div class="grid lg:grid-cols-12 gap-4">
