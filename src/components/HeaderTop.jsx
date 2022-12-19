@@ -115,14 +115,15 @@ function classNames(...classes) {
 
 export default function HeaderTop() {
   return (
-    <Popover className=" relative bg-white  transition-all duration-500 ease-in-out">
+    <Popover className=" relative bg-white  transition-all duration-500 ease-in-out  border-b-2 border-gray-100">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-2">
-        <div className="flex items-center justify-between border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
+        <div className="flex  items-center justify-around  py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <NavLink to="/">
               <span className="sr-only">Your Company</span>
-              <img className="h-8 w-auto sm:h-10" src={logo} alt="" />
+              <img className="h-[37px] w-[64px] sm:h-10" src={logo} alt="" />
             </NavLink>
+            <img className="ml-2 md:hidden lg:block h-6 w-[150px] my-2" src="./image/sub-logo.png"/>
           </div>
           <div className="-my-2 -mr-2 md:hidden">
             <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -130,7 +131,7 @@ export default function HeaderTop() {
               <Bars3Icon className="h-6 w-6" aria-hidden="true" />
             </Popover.Button>
           </div>
-          <Popover.Group as="nav" className="hidden space-x-10 md:flex">
+          <Popover.Group as="nav" className="hidden space-x-6 md:flex">
             <Popover className="relative">
               {({ open }) => (
                 <>
@@ -208,7 +209,7 @@ export default function HeaderTop() {
 
             <NavLink
               to="/"
-              className="text-[14px] font-medium text-[#101828]"
+              className="text-[14px] font-medium text-[#101828] "
             >
               Trang chủ
             </NavLink>

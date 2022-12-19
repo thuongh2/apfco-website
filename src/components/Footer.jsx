@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="border-t-2 border-rose-600  text-[#667085]">
       <div className="text-[14px] leading-6 ">
-        <div className="lg:grid lg:grid-cols-8 p-4 mt-6">
+        <div className=" lg:grid lg:grid-cols-8 p-4 mt-6">
           <div className=" lg:col-start-2 lg:col-span-1 mx-auto">
             <img className="mx-auto my-6 lg:w-[80%]" src={logo} alt="okok" />
           </div>
@@ -49,8 +49,8 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className="hidden lg:col-span-1">
-            <img className=" h-[100px]lg:h-[170px] w-full" src="./image/logo_leave.png" alt="logo" />
+          <div className="hidden lg:block lg:col-span-1">
+            <img className=" h-[100px] lg:h-[170px] w-full" src="./image/logo_leave.png" alt="logo" />
           </div>
         </div>
         <div className="p-5 lg:grid lg:grid-cols-8 border border-inherit text-[14px] text-[#667085]">
