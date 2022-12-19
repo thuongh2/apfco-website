@@ -8,7 +8,7 @@ const Product = () => {
     <>
       <Header />
       <CarouselCustom />
-      <div class="flex justify-center mb-6">
+      <div class="flex justify-center my-9">
         <div class="container px-4 lg:w-2/3">
           <div class="">
             <div class="text-center my-6">
@@ -58,7 +58,7 @@ const Product = () => {
             </div>
           </div>
 
-          <div class="h-fit my-15">
+          <div class="h-fit my-16">
             <div class="flex justify-center text-center my-6">
               <h2 class=" lg:w-2/3 py-2 bg-[#019147] rounded-full text-xl lg:text-2xl font-bold text-white">
                 ACETYLATED DISTARCH ADIPATE - E.1422
@@ -158,7 +158,7 @@ const Product = () => {
             </div>
           </div>
 
-          <div class="h-fit">
+          <div class="h-fit my-16">
             <div class="flex justify-center text-center my-6">
               <h2 class=" lg:w-2/3 py-2 bg-[#019147] rounded-full text-xl lg:text-2xl font-bold text-white">
                 ACETYLATED STARCH - E.1420
@@ -259,7 +259,7 @@ const Product = () => {
             </div>
           </div>
 
-          <div class="h-fit my-15">
+          <div class="h-fit my-16">
             <div class="flex justify-center text-center my-6">
               <h2 class=" lg:w-2/3 py-2 bg-[#019147] rounded-full text-xl lg:text-2xl font-bold text-white">
                 ACETYLATED STARCH - E.1421

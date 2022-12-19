@@ -35,24 +35,45 @@ const CarouselCustom = () => {
       >
         <div>
           <div className="">
-            <div className="absolute left-[10%] bottom-[30%] text-white text-[38px] font-semibold">
+            <div className="absolute left-[15%] bottom-[30%] text-white text-[40px] font-bold">
               <h1>
                 APFCO khánh thành <p>công ty con thứ 2 tại Lào</p>
               </h1>
-              <button className="rounded-lg  text-lg bg-[#EA2127] hover:bg-red-600 h-10 w-[45%]">Tìm hiểu thêm</button>
+              <button className="rounded-lg  text-lg bg-[#EA2127] hover:bg-red-600 h-10 w-[45%]">
+                Tìm hiểu thêm
+              </button>
             </div>
             <img src="./image/banner-1.png" class="d-block w-100" alt="..." />
           </div>
         </div>
-        {/* <div>
-          <img src="./image/banner-1.png" class="d-block w-100" alt="..." />
-        </div>
+
         <div>
-          <img src="./image/banner-1.png" class="d-block w-100" alt="..." />
+          <div className="">
+            <div className="absolute left-[15%] bottom-[30%] text-white text-[40px] font-bold">
+              <h1>
+                APFCO khánh thành <p>công ty con thứ 2 tại Lào</p>
+              </h1>
+              <button className="rounded-lg  text-lg bg-[#EA2127] hover:bg-red-600 h-10 w-[45%]">
+                Tìm hiểu thêm
+              </button>
+            </div>
+            <img src="./image/banner-1.png" class="d-block w-100" alt="..." />
+          </div>
         </div>
+
         <div>
-          <img src="./image/banner-1.png" class="d-block w-100" alt="..." />
-        </div> */}
+          <div className="">
+            <div className="absolute left-[15%] bottom-[30%] text-white text-[40px] font-bold">
+              <h1>
+                APFCO khánh thành <p>công ty con thứ 2 tại Lào</p>
+              </h1>
+              <button className="rounded-lg  text-lg bg-[#EA2127] hover:bg-red-600 h-10 w-[45%]">
+                Tìm hiểu thêm
+              </button>
+            </div>
+            <img src="./image/banner-1.png" class="d-block w-100" alt="..." />
+          </div>
+        </div>
       </Carousel>
     </>
   );

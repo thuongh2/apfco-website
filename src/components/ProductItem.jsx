@@ -25,7 +25,7 @@ const responsive = {
 const ProductItem = () => {
   return (
     <>
-      <div className="grid grid-cols-7 mb-6">
+      <div className="grid grid-cols-7 mb-9">
         <div className="col-start-3 col-span-3 ">
           <h1 className="text-center text-4xl text-[#019147] font-semibold my-3">
             Sản Phẩm

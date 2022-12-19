@@ -61,7 +61,7 @@ const HomePage = () => {
           <div className="col-start-3 col-span-2">
             <img className=" w-full" src="./image/network-map.png" alt="" />
           </div>
-          <div className="col-start-5 col-span-3 text-justify">
+          <div className="col-start-5 col-span-3 text-justify flex items-center">
             <div>
               <h1 className="text-4xl text-[#FFFFFF] font-semibold my-3">
                 Mạng lưới APFCO
@@ -72,7 +72,7 @@ const HomePage = () => {
                 Trung Bộ,Tây Nguyên đến Đông Nam Bộ, bao gồm: có 12 đơn vị trực
                 thuộc, 6 công ty con và 1 công ty liên kết. Vị trí nhà máy được
                 phân bổ gần kề các vùng nguyên liệu, giúp tối ưu trong khâu vận
-                chuyển & đảm bảochất lượng của nguyên liệu.
+                chuyển & đảm bảo chất lượng của nguyên liệu.
               </span>
               <br />
             </div>
