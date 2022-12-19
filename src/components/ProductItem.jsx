@@ -42,7 +42,7 @@ const ProductItem = () => {
           </p>
         </div>
       </div>
-      <div>
+      <div className="lg:ml-6">
         <Carousel
           swipeable={true}
           infinite={true}
