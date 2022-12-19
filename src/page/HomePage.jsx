@@ -14,7 +14,7 @@ const HomePage = () => {
         {/* APFO */}
         <div className="mb-20 h-[680px]">
           <div className="">
-            <div className="lg:mt-32 absolute grid grid-cols-8 gap-6 w-full">
+            <div className="mt-20 lg:mt-32 absolute grid grid-cols-8 gap-6 w-full">
               <div className="col-start-2 col-span-3 xl:col-start-3 xl:col-span-2">
                 <img className=" w-full object-cover" src="./image/about-us.png" alt="" />
               </div>

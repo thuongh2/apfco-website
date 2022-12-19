@@ -366,7 +366,7 @@ const Product = () => {
               </h2>
             </div>
 
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
               <div class="">
                 <img
                   class="h-[400px] w-[500px] object-contain"
