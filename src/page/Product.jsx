@@ -752,13 +752,13 @@ const Product = () => {
               <div class="">
                 <img
                   class="h-[400px]  w-[500px] object-cover"
-                  src="./Links/ca.jpg"
+                  src="./Links/ca1.jpg"
                   alt=""
                 />
               </div>
             </div>
           </div>
-
+        {/* add ca */}
         </div>
       </div>
       <Footer />
