@@ -12,9 +12,9 @@ const HomePage = () => {
     <CarouselCustom />
     <div>
       {/* APFO */}
-      <div className="mb-20">
+      <div className="mb-20 h-[680px]">
         <div className="">
-          <div className="mt-12 absolute grid grid-cols-8 gap-6 w-full">
+          <div className="lg:mt-32 absolute grid grid-cols-8 gap-6 w-full">
             <div className="col-start-3 col-span-2">
               <img className=" w-full" src="./image/about-us.png" alt="" />
             </div>
@@ -52,14 +52,14 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-        <img className="" src="./image/aboutus-bg.png" alt="" />
+        <img className="h-full" src="./image/aboutus-bg.png" alt="" />
       </div>
       <ProductItem />
       {/* mạng lưới */}
       <div className="bg-hero mt-20 py-14">
-        <div className="grid absolute grid-cols-8 gap-6 w-full ">
+        <div className="grid z-20 absolute grid-cols-8 gap-6 w-full ">
           <div className="col-start-3 col-span-2">
-            <img className="z-20 w-full" src="./image/network-map.png" alt="" />
+            <img className=" w-full" src="./image/network-map.png" alt="" />
           </div>
           <div className="col-start-5 col-span-3 text-justify">
             <div>

@@ -37,3 +37,8 @@
     transform: rotate(360deg);
   }
 }
+
+
+.react-multiple-carousel__arrow--right{
+  right: calc(20% + 1px) !important;
+}
