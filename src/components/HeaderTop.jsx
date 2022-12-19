@@ -123,7 +123,7 @@ export default function HeaderTop() {
               <span className="sr-only">Your Company</span>
               <img className="h-[37px] w-[64px] sm:h-10" src={logo} alt="" />
             </NavLink>
-            <img className="ml-2 md:hidden lg:block h-6 w-[150px] my-2" src="./image/sub-logo.png"/>
+            <img className="ml-2 h-6 w-[100px] xl:w-[150px] my-2" src="./image/sub-logo.png"/>
           </div>
           <div className="-my-2 -mr-2 md:hidden">
             <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
