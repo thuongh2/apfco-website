@@ -116,7 +116,7 @@ function classNames(...classes) {
 export default function HeaderTop() {
   return (
     <Popover className=" relative bg-white  transition-all duration-500 ease-in-out">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-2">
         <div className="flex items-center justify-between border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <NavLink to="/">
@@ -243,7 +243,7 @@ export default function HeaderTop() {
               Cơ hội nghề nghiệp
             </a>
           </Popover.Group>
-          <div className="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
+          <div className="hidden items-center justify-end md:flex md:flex-1 lg:w-0 ">
             <a
               href="#"
               className="whitespace-nowrap text-[14px] font-medium text-[#101828] hover:text-gray-900"
@@ -265,7 +265,7 @@ export default function HeaderTop() {
             </a>
             <a
               href="#"
-              className="ml-8 inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent hover:bg-[#e44f54] px-4 py-2 text-base font-medium text-white shadow-sm bg-[#EA2127]"
+              className="ml-4 xl:ml-8 inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent hover:bg-[#e44f54] px-4 py-2 text-base font-medium text-white shadow-sm bg-[#EA2127]"
             >
               Liên hệ
             </a>

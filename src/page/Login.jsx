@@ -56,7 +56,7 @@ const Login = () => {
                         </div>
                       </form>
                     </div>
-                    <div class="w-12 col-start-8 col-span-1">
+                    <div class="w-12 col-start-11 xl:col-start-9 col-span-1">
                       <ul class="form_icon_list">
                         <li class="w-12 h-12 mb-2 hover:cursor-pointer">
                           <a>

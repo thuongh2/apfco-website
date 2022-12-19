@@ -9,7 +9,7 @@ const Product = () => {
       <Header />
       <CarouselCustom />
       <div class="flex justify-center my-9">
-        <div class="container px-4 lg:w-2/3">
+        <div class="container px-4 md:px-0 w-[90%] lg:w[65%] 2xl:w-2/3">
           <div class="">
             <div class="text-center my-6">
               <h2 class="text-4xl font-bold text-[#019147]">
@@ -104,24 +104,25 @@ const Product = () => {
                     <td class="border border-slate-300 px-6 py-1">≥ ,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Tạp chât</td>
+                    <td class="border border-slate-300 px-6 py-1">Độ trắng</td>
                     <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ ,0</td>
+                    <td class="border border-slate-300 px-6 py-1">≥ 90,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Tạp chât</td>
+                    <td class="border border-slate-300 px-6 py-1">Độ tro</td>
                     <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ ,0</td>
+                    <td class="border border-slate-300 px-6 py-1">≤ 0,20</td>
+                  </tr>
+              
+                  <tr>
+                    <td class="border border-slate-300 px-6 py-1">pH</td>
+                    <td class="border border-slate-300 px-6 py-1"></td>
+                    <td class="border border-slate-300 px-6 py-1">0,5 ÷ 7.0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Tạp chât</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ ,0</td>
-                  </tr>
-                  <tr>
-                    <td class="border border-slate-300 px-6 py-1">Tạp chât</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ ,0</td>
+                    <td class="border border-slate-300 px-6 py-1">SO2</td>
+                    <td class="border border-slate-300 px-6 py-1">ppm</td>
+                    <td class="border border-slate-300 px-6 py-1">≤ 30,0</td>
                   </tr>
                 </table>
               </div>
@@ -212,24 +213,25 @@ const Product = () => {
                     <td class="border border-slate-300 px-6 py-1">≥ ,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Tạp chât</td>
+                    <td class="border border-slate-300 px-6 py-1">Độ trắng</td>
                     <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ ,0</td>
+                    <td class="border border-slate-300 px-6 py-1">≥ 90,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Tạp chât</td>
+                    <td class="border border-slate-300 px-6 py-1">Độ tro</td>
                     <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ ,0</td>
+                    <td class="border border-slate-300 px-6 py-1">≤ 0,20</td>
+                  </tr>
+              
+                  <tr>
+                    <td class="border border-slate-300 px-6 py-1">pH</td>
+                    <td class="border border-slate-300 px-6 py-1"></td>
+                    <td class="border border-slate-300 px-6 py-1">0,5 ÷ 7.0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Tạp chât</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ ,0</td>
-                  </tr>
-                  <tr>
-                    <td class="border border-slate-300 px-6 py-1">Tạp chât</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ ,0</td>
+                    <td class="border border-slate-300 px-6 py-1">SO2</td>
+                    <td class="border border-slate-300 px-6 py-1">ppm</td>
+                    <td class="border border-slate-300 px-6 py-1">≤ 30,0</td>
                   </tr>
                 </table>
               </div>
@@ -411,9 +413,14 @@ const Product = () => {
                     <td class="border border-slate-300 px-6 py-1">≥ ,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Tạp chât</td>
+                    <td class="border border-slate-300 px-6 py-1">Độ trắng</td>
                     <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ ,0</td>
+                    <td class="border border-slate-300 px-6 py-1">≥ 90,0</td>
+                  </tr>
+                  <tr>
+                    <td class="border border-slate-300 px-6 py-1">Độ xơ</td>
+                    <td class="border border-slate-300 px-6 py-1">%</td>
+                    <td class="border border-slate-300 px-6 py-1">≤ 0,50</td>
                   </tr>
                   <tr>
                     <td class="border border-slate-300 px-6 py-1">Tạp chât</td>
@@ -426,9 +433,14 @@ const Product = () => {
                     <td class="border border-slate-300 px-6 py-1">≥ ,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Tạp chât</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ ,0</td>
+                    <td class="border border-slate-300 px-6 py-1">pH</td>
+                    <td class="border border-slate-300 px-6 py-1"></td>
+                    <td class="border border-slate-300 px-6 py-1">0,5 ÷ 7.0</td>
+                  </tr>
+                  <tr>
+                    <td class="border border-slate-300 px-6 py-1">SO2</td>
+                    <td class="border border-slate-300 px-6 py-1">ppm</td>
+                    <td class="border border-slate-300 px-6 py-1">≤ 30,0</td>
                   </tr>
                 </table>
               </div>
@@ -456,6 +468,296 @@ const Product = () => {
             </div>
           </div>
 
+          <div class="h-fit my-16">
+            <div class="flex justify-center text-center my-6">
+              <h2 class=" lg:w-2/3 py-2 bg-[#019147] rounded-full text-xl lg:text-2xl font-bold text-white">
+                AACETYLATED DISTARCH PHOSPHATE - E.1414
+              </h2>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3">
+              <div class="text-[15px]">
+                <p class="mb-2 text-[#019147] font-bold">
+                  1. Tiêu chuẩn kĩ thuật
+                </p>
+                <table class="table-auto border-collapse border border-slate-400">
+                  <tr>
+                    <th class="border border-slate-300 px-6 py-1  ">
+                      Chỉ tiêu
+                    </th>
+                    <th class="border border-slate-300 px-6 py-1 ">ĐVT</th>
+                    <th class="border border-slate-300 px-6 py-1 ">Quy cách</th>
+                  </tr>
+                  <tr>
+                    <td class="border border-slate-300 px-6 py-1">Tinh bột</td>
+                    <td class="border border-slate-300 px-6 py-1">%</td>
+                    <td class="border border-slate-300 px-6 py-1">≥ 85,0</td>
+                  </tr>
+                  <tr>
+                    <td class="border border-slate-300 px-6 py-1">Độ ẩm</td>
+                    <td class="border border-slate-300 px-6 py-1">%</td>
+                    <td class="border border-slate-300 px-6 py-1">≥ 13,0</td>
+                  </tr>
+                  <tr>
+                    <td class="border border-slate-300 px-6 py-1">Độ dẻo</td>
+                    <td class="border border-slate-300 px-6 py-1">BU</td>
+                    <td class="border border-slate-300 px-6 py-1">≥ 750</td>
+                  </tr>
+                  <tr>
+                    <td class="border border-slate-300 px-6 py-1">Độ mịn</td>
+                    <td class="border border-slate-300 px-6 py-1">%</td>
+                    <td class="border border-slate-300 px-6 py-1">≥ 99,0</td>
+                  </tr>
+                  <tr>
+                    <td class="border border-slate-300 px-6 py-1">Tạp chât</td>
+                    <td class="border border-slate-300 px-6 py-1">%</td>
+                    <td class="border border-slate-300 px-6 py-1">≥ ,010</td>
+                  </tr>
+                  <tr>
+                    <td class="border border-slate-300 px-6 py-1">Độ trắng</td>
+                    <td class="border border-slate-300 px-6 py-1">%</td>
+                    <td class="border border-slate-300 px-6 py-1">≥ 90,0</td>
+                  </tr>
+                  <tr>
+                    <td class="border border-slate-300 px-6 py-1">Độ tro</td>
+                    <td class="border border-slate-300 px-6 py-1">%</td>
+                    <td class="border border-slate-300 px-6 py-1">≤ 0,20</td>
+                  </tr>
+                  <tr>
+                    <td class="border border-slate-300 px-6 py-1">Độ xơ</td>
+                    <td class="border border-slate-300 px-6 py-1">%</td>
+                    <td class="border border-slate-300 px-6 py-1">≤ 0,50</td>
+                  </tr>
+                  <tr>
+                    <td class="border border-slate-300 px-6 py-1">pH</td>
+                    <td class="border border-slate-300 px-6 py-1"></td>
+                    <td class="border border-slate-300 px-6 py-1">0,5 ÷ 7.0</td>
+                  </tr>
+                  <tr>
+                    <td class="border border-slate-300 px-6 py-1">SO2</td>
+                    <td class="border border-slate-300 px-6 py-1">ppm</td>
+                    <td class="border border-slate-300 px-6 py-1">≤ 30,0</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="">
+                <div class="text-[15px] leading-7">
+                  <p class="text-[#019147] font-bold my-2 ">2. Đặc tính</p>
+                  <ul class="">
+                    <li>- Ổn định vượt trội về sự đông đặc - làm tan của các sản đông lạnh, độ trong suốt tốt, khả năng ổn định cao, khả năng chống thoái hóa cấu trúc tốt.</li>
+                    <li>- Được ứng dụng như chất ổn định, chất làm dày và chất nhũ hóa trong sản xuất thực phẩm.</li>
+                  </ul>
+                  <p class="text-[#019147] font-bold my-2 ">3. Ứng dụng</p>
+                  <ul>
+                    <li>- Thực phẩm đóng hộp, thực phẩm đông lạnh.</li>
+                    <li>- Nước chấm, tương ớt, nước cà chua, xúp, nước ép thịt.</li>
+                    <li>
+                      - Các thực phẩm nướng, quay…
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="">
+                <img
+                  class="h-[400px]  w-[500px] object-fill"
+                  src="./Links/thitvien.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="h-fit">
+            <div class="flex justify-center text-center my-6">
+              <h2 class=" lg:w-2/3 py-2 bg-[#019147] rounded-full text-xl lg:text-2xl font-bold text-white">
+              OXIDIZED STARCH - E.1404
+              </h2>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+              <div class="">
+                <img
+                  class="h-[400px] w-[500px] object-contain"
+                  src="./Links/giay.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="text-[15px]">
+                <p class="mb-2 text-[#019147] font-bold">
+                  1. Tiêu chuẩn kĩ thuật
+                </p>
+                <table class="table-auto border-collapse border border-slate-400">
+                  <tr>
+                    <th class="border border-slate-300 px-6 py-1  ">
+                      Chỉ tiêu
+                    </th>
+                    <th class="border border-slate-300 px-6 py-1 ">ĐVT</th>
+                    <th class="border border-slate-300 px-6 py-1 ">Quy cách</th>
+                  </tr>
+                  <tr>
+                    <td class="border border-slate-300 px-6 py-1">Tinh bột</td>
+                    <td class="border border-slate-300 px-6 py-1">%</td>
+                    <td class="border border-slate-300 px-6 py-1">≥ 85,0</td>
+                  </tr>
+                  <tr>
+                    <td class="border border-slate-300 px-6 py-1">Độ ẩm</td>
+                    <td class="border border-slate-300 px-6 py-1">%</td>
+                    <td class="border border-slate-300 px-6 py-1">≤ 13,0</td>
+                  </tr>
+                  <tr>
+                    <td class="border border-slate-300 px-6 py-1">Độ dẻo</td>
+                    <td class="border border-slate-300 px-6 py-1">CPs</td>
+                    <td class="border border-slate-300 px-6 py-1">10 - 3.000</td>
+                  </tr>
+                  <tr>
+                    <td class="border border-slate-300 px-6 py-1">Độ mịn</td>
+                    <td class="border border-slate-300 px-6 py-1">%</td>
+                    <td class="border border-slate-300 px-6 py-1">≥ 99,0</td>
+                  </tr>
+                  <tr>
+                    <td class="border border-slate-300 px-6 py-1">Tạp chât</td>
+                    <td class="border border-slate-300 px-6 py-1">%</td>
+                    <td class="border border-slate-300 px-6 py-1">≤ 0,10</td>
+                  </tr>
+                  <tr>
+                    <td class="border border-slate-300 px-6 py-1">Độ trắng</td>
+                    <td class="border border-slate-300 px-6 py-1">%</td>
+                    <td class="border border-slate-300 px-6 py-1">≥ 91,0</td>
+                  </tr>
+                  <tr>
+                    <td class="border border-slate-300 px-6 py-1">Độ tro</td>
+                    <td class="border border-slate-300 px-6 py-1">%</td>
+                    <td class="border border-slate-300 px-6 py-1">≤ 0,20</td>
+                  </tr>
+                  <tr>
+                    <td class="border border-slate-300 px-6 py-1">Độ xơ</td>
+                    <td class="border border-slate-300 px-6 py-1">%</td>
+                    <td class="border border-slate-300 px-6 py-1">≤ 0,50</td>
+                  </tr>
+                  <tr>
+                    <td class="border border-slate-300 px-6 py-1">pH</td>
+                    <td class="border border-slate-300 px-6 py-1"></td>
+                    <td class="border border-slate-300 px-6 py-1">0,5 ÷ 7.0</td>
+                  </tr>
+                  <tr>
+                    <td class="border border-slate-300 px-6 py-1">SO2</td>
+                    <td class="border border-slate-300 px-6 py-1">ppm</td>
+                    <td class="border border-slate-300 px-6 py-1">≤ 30,0</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="">
+                <div class="text-[15px] leading-6 text-justify">
+                  <p class="text-[#019147] font-bold my-2 ">2. Đặc tính</p>
+                  <ul class="product__group1-list">
+                    <li>- Lực tạo màng mỏng tốt, ít hút nước.</li>
+                    <li>- Giảm hiện tượng oxy hóa.</li>
+                    <li>
+                      - Hạn chế sự trương nở của các hạt tinh bột khi nấu lên, chống hiện tượng rỉ nước.Tạo bề mặt sản phẩm láng bóng.
+                    </li>
+                   
+                  </ul>
+                  <p class="text-[#019147] font-bold my-2 ">3. Ứng dụng</p>
+                  <ul>
+                    <li>- Ngành giấy: tăng tỷ lệ thu hồi bột giấy, tráng phủ bề mặt giấy. Làm keo dán trong sản xuất tấm trần thạch cao, keo dán trong sản xuất bao bì carton.</li>
+                    <li>
+                      - Ngành thực phẩm như: bánh, kẹo dẻo, nước sốt đóng hộp, bánh plan, bánh xốp, kẹo dẻo, hạt nêm…
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="h-fit my-16">
+            <div class="flex justify-center text-center my-6">
+              <h2 class=" lg:w-2/3 py-2 bg-[#019147] rounded-full text-xl lg:text-2xl font-bold text-white">
+              PREGELATINIZED TAPIOCA STARCH (ALPHA STARCH)
+              </h2>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3">
+              <div class="text-[15px]">
+                <p class="mb-2 text-[#019147] font-bold">
+                  1. Tiêu chuẩn kĩ thuật
+                </p>
+                <table class="table-auto border-collapse border border-slate-400">
+                  <tr>
+                    <th class="border border-slate-300 px-6 py-1  ">
+                      Chỉ tiêu
+                    </th>
+                    <th class="border border-slate-300 px-6 py-1 ">ĐVT</th>
+                    <th class="border border-slate-300 px-6 py-1 ">Quy cách</th>
+                  </tr>
+                  <tr>
+                    <td class="border border-slate-300 px-6 py-1">Tinh bột</td>
+                    <td class="border border-slate-300 px-6 py-1">%</td>
+                    <td class="border border-slate-300 px-6 py-1">≥ 90,0</td>
+                  </tr>
+                  <tr>
+                    <td class="border border-slate-300 px-6 py-1">Độ ẩm</td>
+                    <td class="border border-slate-300 px-6 py-1">%</td>
+                    <td class="border border-slate-300 px-6 py-1">≤ 8,0</td>
+                  </tr>
+                  <tr>
+                    <td class="border border-slate-300 px-6 py-1">Độ mịn</td>
+                    <td class="border border-slate-300 px-6 py-1">%</td>
+                    <td class="border border-slate-300 px-6 py-1">≥ 80,0</td>
+                  </tr>
+                  <tr>
+                    <td class="border border-slate-300 px-6 py-1">Tạp chât</td>
+                    <td class="border border-slate-300 px-6 py-1">%</td>
+                    <td class="border border-slate-300 px-6 py-1">≥ ,020</td>
+                  </tr>
+                  <tr>
+                    <td class="border border-slate-300 px-6 py-1">Độ trắng</td>
+                    <td class="border border-slate-300 px-6 py-1">%</td>
+                    <td class="border border-slate-300 px-6 py-1">≥ 80,0</td>
+                  </tr>
+                  <tr>
+                    <td class="border border-slate-300 px-6 py-1">Độ tro</td>
+                    <td class="border border-slate-300 px-6 py-1">%</td>
+                    <td class="border border-slate-300 px-6 py-1">≤ 0,20</td>
+                  </tr>
+          
+                  <tr>
+                    <td class="border border-slate-300 px-6 py-1">pH</td>
+                    <td class="border border-slate-300 px-6 py-1"></td>
+                    <td class="border border-slate-300 px-6 py-1">0,5 ÷ 7.0</td>
+                  </tr>
+                </table>
+                <p class="text-[#019147] font-bold my-2 mt-3">2. Đặc tính</p>
+                  <ul class="">
+                    <li>- Lực tạo màng mỏng tốt, ít hút nước.</li>
+                    <li>- Giảm hiện tượng oxy hóa.</li>
+                    <li>
+                      - Tạo bề mặt sản phẩm láng bóng.
+                    </li>
+                  </ul>
+              </div>
+              <div class="">
+                <div class="text-[15px] leading-7">
+                  
+                  <p class="text-[#019147] font-bold my-2 ">3. Ứng dụng</p>
+                  <ul>
+                    <li>- Ngành công nghiệp thực phẩm: Tinh bột alpha được sử dụng làm chất làm đặc hoặc chất ổn định trong các sản phẩm thực phẩm và đồ uống sữa, thực phẩm đông lạnh, đồ uống chức năng, thực phẩm bột, nước sốt, nước giải khát</li>
+                    <li>- Trong công nghiệp mỹ phẩm: Tinh bột alpha được sử dụng như một thành phần phụ gia trong các sản phẩm mỹ phẩm. Nó sử dụng làm chất pha loãng viên nang, làm chất kết dính và cho phép tinh bột hấp thụ nước dễ dàng và giúp cho viên thuốc tan đúng cách.</li>
+                    <li>
+                      - Trong ngành công nghiệp sản xuất thức ăn: Tinh bột alpha dễ tan trong nước, hấp thụ nhanh nên được sử dụng làm chất làm đặc, chất kết dính trong thức ăn gia súc, thức ăn thủy sản.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="">
+                <img
+                  class="h-[400px]  w-[500px] object-cover"
+                  src="./Links/ca.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
 
         </div>
       </div>

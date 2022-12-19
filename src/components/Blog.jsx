@@ -35,8 +35,8 @@ const Blog = () => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-5 gap-4">
-        <div className="col-start-2">
+      <div className=" flex justify-center px-4 gap-6">
+        <div className="xl:col-start-2">
           <a href="#">
             <div className="flex justify-center flex-col rounded-lg">
               <img

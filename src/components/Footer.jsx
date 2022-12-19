@@ -49,7 +49,7 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className="lg:col-span-1">
+          <div className="hidden lg:col-span-1">
             <img className=" h-[100px]lg:h-[170px] w-full" src="./image/logo_leave.png" alt="logo" />
           </div>
         </div>

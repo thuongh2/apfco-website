@@ -9,12 +9,12 @@ const responsive = {
     items: 6,
   },
   desktop: {
-    breakpoint: { max: 3000, min: 1024 },
-    items: 6,
+    breakpoint: { max: 3000, min: 1080 },
+    items: 5,
   },
   tablet: {
-    breakpoint: { max: 1024, min: 464 },
-    items: 3,
+    breakpoint: { max: 1080, min: 464 },
+    items: 4,
   },
   mobile: {
     breakpoint: { max: 464, min: 0 },
@@ -54,7 +54,7 @@ const ProductItem = () => {
           <div>
             <div className="flex justify-center flex-col">
               <img
-                className="w-[280px] h-[350px]"
+                className="w-[224px] h-[281px]"
                 src="/image/baobi1.png"
                 alt=""
               />
@@ -65,7 +65,7 @@ const ProductItem = () => {
           <div>
             <div className="flex justify-center flex-col">
               <img
-                className="w-[280px] h-[350px]"
+                className="w-[224px] h-[281px]"
                 src="/image/baobi3.png"
                 alt=""
               />
@@ -76,7 +76,7 @@ const ProductItem = () => {
           <div>
             <div className="flex justify-center flex-col">
               <img
-                className="w-[280px] h-[350px]"
+                className="w-[224px] h-[281px]"
                 src="/image/baobi3.png"
                 alt=""
               />
@@ -87,7 +87,7 @@ const ProductItem = () => {
           <div>
             <div className="flex justify-center flex-col">
               <img
-                className="w-[280px] h-[350px]"
+                className="w-[224px] h-[281px]"
                 src="/image/baobi4.png"
                 alt=""
               />
@@ -98,7 +98,7 @@ const ProductItem = () => {
           <div>
             <div className="flex justify-center flex-col">
               <img
-                className="w-[280px] h-[350px]"
+                className="w-[224px] h-[281px]"
                 src="/image/baobi1.png"
                 alt=""
               />
@@ -109,7 +109,7 @@ const ProductItem = () => {
           <div>
             <div className="flex justify-center flex-col">
               <img
-                className="w-[280px] h-[350px]"
+                className="w-[224px] h-[281px]"
                 src="/image/baobi3.png"
                 alt=""
               />
