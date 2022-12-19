@@ -117,11 +117,11 @@ export default function HeaderTop() {
   return (
     <Popover className=" relative bg-white  transition-all duration-500 ease-in-out  border-b-2 border-gray-100">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-2">
-        <div className="flex  items-center justify-around  py-6 md:justify-start md:space-x-10">
-          <div className="flex justify-start lg:w-0 lg:flex-1">
+        <div className="flex  items-center justify-between  py-6 md:justify-start md:space-x-10">
+          <div className="flex justify-evenly lg:w-0 lg:flex-1">
             <NavLink to="/">
               <span className="sr-only">Your Company</span>
-              <img className="h-[37px] w-[64px] sm:h-10" src={logo} alt="" />
+              <img className="h-[37px] w-[75px] sm:h-10" src={logo} alt="" />
             </NavLink>
             <img className="ml-2 h-6 w-[100px] xl:w-[150px] my-2" src="./image/sub-logo.png"/>
           </div>
@@ -131,7 +131,7 @@ export default function HeaderTop() {
               <Bars3Icon className="h-6 w-6" aria-hidden="true" />
             </Popover.Button>
           </div>
-          <Popover.Group as="nav" className="hidden space-x-6 md:flex">
+          <Popover.Group as="nav" className="hidden space-x-4 md:flex">
             <Popover className="relative">
               {({ open }) => (
                 <>

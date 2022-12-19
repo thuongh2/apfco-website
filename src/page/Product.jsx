@@ -65,64 +65,64 @@ const Product = () => {
               </h2>
             </div>
 
-            <div class="grid grid-cols-1 lg:grid-cols-3">
+            <div class="grid grid-cols-1 lg:grid-cols-3  gap-4">
               <div class="text-[15px]">
                 <p class="mb-2 text-[#019147] font-bold">
                   1. Tiêu chuẩn kĩ thuật
                 </p>
                 <table class="table-auto border-collapse border border-slate-400">
                   <tr>
-                    <th class="border border-slate-300 px-6 py-1  ">
+                    <th class="border border-slate-300 px-4 py-1  ">
                       Chỉ tiêu
                     </th>
-                    <th class="border border-slate-300 px-6 py-1 ">ĐVT</th>
-                    <th class="border border-slate-300 px-6 py-1 ">Quy cách</th>
+                    <th class="border border-slate-300 px-4 py-1 ">ĐVT</th>
+                    <th class="border border-slate-300 px-4 py-1 ">Quy cách</th>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Tinh bột</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ 85,0</td>
+                    <td class="border border-slate-300 px-4 py-1">Tinh bột</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≥ 85,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Độ ẩm</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ 13,0</td>
+                    <td class="border border-slate-300 px-4 py-1">Độ ẩm</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≥ 13,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Độ dẻo</td>
-                    <td class="border border-slate-300 px-6 py-1">BU</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ 65,0</td>
+                    <td class="border border-slate-300 px-4 py-1">Độ dẻo</td>
+                    <td class="border border-slate-300 px-4 py-1">BU</td>
+                    <td class="border border-slate-300 px-4 py-1">≥ 65,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Độ mịn</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ 99,0</td>
+                    <td class="border border-slate-300 px-4 py-1">Độ mịn</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≥ 99,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Tạp chât</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ ,0</td>
+                    <td class="border border-slate-300 px-4 py-1">Tạp chât</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≥ ,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Độ trắng</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ 90,0</td>
+                    <td class="border border-slate-300 px-4 py-1">Độ trắng</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≥ 90,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Độ tro</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≤ 0,20</td>
+                    <td class="border border-slate-300 px-4 py-1">Độ tro</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≤ 0,20</td>
                   </tr>
               
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">pH</td>
-                    <td class="border border-slate-300 px-6 py-1"></td>
-                    <td class="border border-slate-300 px-6 py-1">0,5 ÷ 7.0</td>
+                    <td class="border border-slate-300 px-4 py-1">pH</td>
+                    <td class="border border-slate-300 px-4 py-1"></td>
+                    <td class="border border-slate-300 px-4 py-1">0,5 ÷ 7.0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">SO2</td>
-                    <td class="border border-slate-300 px-6 py-1">ppm</td>
-                    <td class="border border-slate-300 px-6 py-1">≤ 30,0</td>
+                    <td class="border border-slate-300 px-4 py-1">SO2</td>
+                    <td class="border border-slate-300 px-4 py-1">ppm</td>
+                    <td class="border border-slate-300 px-4 py-1">≤ 30,0</td>
                   </tr>
                 </table>
               </div>
@@ -181,57 +181,57 @@ const Product = () => {
                 </p>
                 <table class="table-auto border-collapse border border-slate-400">
                   <tr>
-                    <th class="border border-slate-300 px-6 py-1  ">
+                    <th class="border border-slate-300 px-4 py-1  ">
                       Chỉ tiêu
                     </th>
-                    <th class="border border-slate-300 px-6 py-1 ">ĐVT</th>
-                    <th class="border border-slate-300 px-6 py-1 ">Quy cách</th>
+                    <th class="border border-slate-300 px-4 py-1 ">ĐVT</th>
+                    <th class="border border-slate-300 px-4 py-1 ">Quy cách</th>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Tinh bột</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ 85,0</td>
+                    <td class="border border-slate-300 px-4 py-1">Tinh bột</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≥ 85,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Độ ẩm</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ 13,0</td>
+                    <td class="border border-slate-300 px-4 py-1">Độ ẩm</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≥ 13,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Độ dẻo</td>
-                    <td class="border border-slate-300 px-6 py-1">BU</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ 65,0</td>
+                    <td class="border border-slate-300 px-4 py-1">Độ dẻo</td>
+                    <td class="border border-slate-300 px-4 py-1">BU</td>
+                    <td class="border border-slate-300 px-4 py-1">≥ 65,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Độ mịn</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ 99,0</td>
+                    <td class="border border-slate-300 px-4 py-1">Độ mịn</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≥ 99,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Tạp chât</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ ,0</td>
+                    <td class="border border-slate-300 px-4 py-1">Tạp chât</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≥ ,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Độ trắng</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ 90,0</td>
+                    <td class="border border-slate-300 px-4 py-1">Độ trắng</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≥ 90,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Độ tro</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≤ 0,20</td>
+                    <td class="border border-slate-300 px-4 py-1">Độ tro</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≤ 0,20</td>
                   </tr>
               
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">pH</td>
-                    <td class="border border-slate-300 px-6 py-1"></td>
-                    <td class="border border-slate-300 px-6 py-1">0,5 ÷ 7.0</td>
+                    <td class="border border-slate-300 px-4 py-1">pH</td>
+                    <td class="border border-slate-300 px-4 py-1"></td>
+                    <td class="border border-slate-300 px-4 py-1">0,5 ÷ 7.0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">SO2</td>
-                    <td class="border border-slate-300 px-6 py-1">ppm</td>
-                    <td class="border border-slate-300 px-6 py-1">≤ 30,0</td>
+                    <td class="border border-slate-300 px-4 py-1">SO2</td>
+                    <td class="border border-slate-300 px-4 py-1">ppm</td>
+                    <td class="border border-slate-300 px-4 py-1">≤ 30,0</td>
                   </tr>
                 </table>
               </div>
@@ -268,63 +268,63 @@ const Product = () => {
               </h2>
             </div>
 
-            <div class="grid grid-cols-1 lg:grid-cols-3">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
               <div class="text-[15px]">
                 <p class="mb-2 text-[#019147] font-bold">
                   1. Tiêu chuẩn kĩ thuật
                 </p>
                 <table class="table-auto border-collapse border border-slate-400">
                   <tr>
-                    <th class="border border-slate-300 px-6 py-1  ">
+                    <th class="border border-slate-300 px-4 py-1  ">
                       Chỉ tiêu
                     </th>
-                    <th class="border border-slate-300 px-6 py-1 ">ĐVT</th>
-                    <th class="border border-slate-300 px-6 py-1 ">Quy cách</th>
+                    <th class="border border-slate-300 px-4 py-1 ">ĐVT</th>
+                    <th class="border border-slate-300 px-4 py-1 ">Quy cách</th>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Tinh bột</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ 85,0</td>
+                    <td class="border border-slate-300 px-4 py-1">Tinh bột</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≥ 85,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Độ ẩm</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ 13,0</td>
+                    <td class="border border-slate-300 px-4 py-1">Độ ẩm</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≥ 13,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Độ dẻo</td>
-                    <td class="border border-slate-300 px-6 py-1">BU</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ 750</td>
+                    <td class="border border-slate-300 px-4 py-1">Độ dẻo</td>
+                    <td class="border border-slate-300 px-4 py-1">BU</td>
+                    <td class="border border-slate-300 px-4 py-1">≥ 750</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Độ mịn</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ 99,0</td>
+                    <td class="border border-slate-300 px-4 py-1">Độ mịn</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≥ 99,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Tạp chât</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ ,010</td>
+                    <td class="border border-slate-300 px-4 py-1">Tạp chât</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≥ ,010</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Độ trắng</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ 90,0</td>
+                    <td class="border border-slate-300 px-4 py-1">Độ trắng</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≥ 90,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Độ tro</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≤ 0,20</td>
+                    <td class="border border-slate-300 px-4 py-1">Độ tro</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≤ 0,20</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Độ xơ</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≤ 0,50</td>
+                    <td class="border border-slate-300 px-4 py-1">Độ xơ</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≤ 0,50</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">pH</td>
-                    <td class="border border-slate-300 px-6 py-1"></td>
-                    <td class="border border-slate-300 px-6 py-1">0,5 ÷ 7.0</td>
+                    <td class="border border-slate-300 px-4 py-1">pH</td>
+                    <td class="border border-slate-300 px-4 py-1"></td>
+                    <td class="border border-slate-300 px-4 py-1">0,5 ÷ 7.0</td>
                   </tr>
                 </table>
               </div>
@@ -366,7 +366,7 @@ const Product = () => {
               </h2>
             </div>
 
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
               <div class="">
                 <img
                   class="h-[400px] w-[500px] object-contain"
@@ -381,66 +381,66 @@ const Product = () => {
                 </p>
                 <table class="table-auto border-collapse border border-slate-400">
                   <tr>
-                    <th class="border border-slate-300 px-6 py-1  ">
+                    <th class="border border-slate-300 px-4 py-1  ">
                       Chỉ tiêu
                     </th>
-                    <th class="border border-slate-300 px-6 py-1 ">ĐVT</th>
-                    <th class="border border-slate-300 px-6 py-1 ">Quy cách</th>
+                    <th class="border border-slate-300 px-4 py-1 ">ĐVT</th>
+                    <th class="border border-slate-300 px-4 py-1 ">Quy cách</th>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Tinh bột</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ 85,0</td>
+                    <td class="border border-slate-300 px-4 py-1">Tinh bột</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≥ 85,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Độ ẩm</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ 13,0</td>
+                    <td class="border border-slate-300 px-4 py-1">Độ ẩm</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≥ 13,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Độ dẻo</td>
-                    <td class="border border-slate-300 px-6 py-1">BU</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ 65,0</td>
+                    <td class="border border-slate-300 px-4 py-1">Độ dẻo</td>
+                    <td class="border border-slate-300 px-4 py-1">BU</td>
+                    <td class="border border-slate-300 px-4 py-1">≥ 65,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Độ mịn</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ 99,0</td>
+                    <td class="border border-slate-300 px-4 py-1">Độ mịn</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≥ 99,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Tạp chât</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ ,0</td>
+                    <td class="border border-slate-300 px-4 py-1">Tạp chât</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≥ ,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Độ trắng</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ 90,0</td>
+                    <td class="border border-slate-300 px-4 py-1">Độ trắng</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≥ 90,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Độ xơ</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≤ 0,50</td>
+                    <td class="border border-slate-300 px-4 py-1">Độ xơ</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≤ 0,50</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Tạp chât</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ ,0</td>
+                    <td class="border border-slate-300 px-4 py-1">Tạp chât</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≥ ,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Tạp chât</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ ,0</td>
+                    <td class="border border-slate-300 px-4 py-1">Tạp chât</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≥ ,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">pH</td>
-                    <td class="border border-slate-300 px-6 py-1"></td>
-                    <td class="border border-slate-300 px-6 py-1">0,5 ÷ 7.0</td>
+                    <td class="border border-slate-300 px-4 py-1">pH</td>
+                    <td class="border border-slate-300 px-4 py-1"></td>
+                    <td class="border border-slate-300 px-4 py-1">0,5 ÷ 7.0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">SO2</td>
-                    <td class="border border-slate-300 px-6 py-1">ppm</td>
-                    <td class="border border-slate-300 px-6 py-1">≤ 30,0</td>
+                    <td class="border border-slate-300 px-4 py-1">SO2</td>
+                    <td class="border border-slate-300 px-4 py-1">ppm</td>
+                    <td class="border border-slate-300 px-4 py-1">≤ 30,0</td>
                   </tr>
                 </table>
               </div>
@@ -471,72 +471,72 @@ const Product = () => {
           <div class="h-fit my-16">
             <div class="flex justify-center text-center my-6">
               <h2 class=" lg:w-2/3 py-2 bg-[#019147] rounded-full text-xl lg:text-2xl font-bold text-white">
-                AACETYLATED DISTARCH PHOSPHATE - E.1414
+                ACETYLATED DISTARCH PHOSPHATE - E.1414
               </h2>
             </div>
 
-            <div class="grid grid-cols-1 lg:grid-cols-3">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
               <div class="text-[15px]">
                 <p class="mb-2 text-[#019147] font-bold">
                   1. Tiêu chuẩn kĩ thuật
                 </p>
                 <table class="table-auto border-collapse border border-slate-400">
                   <tr>
-                    <th class="border border-slate-300 px-6 py-1  ">
+                    <th class="border border-slate-300 px-4 py-1  ">
                       Chỉ tiêu
                     </th>
-                    <th class="border border-slate-300 px-6 py-1 ">ĐVT</th>
-                    <th class="border border-slate-300 px-6 py-1 ">Quy cách</th>
+                    <th class="border border-slate-300 px-4 py-1 ">ĐVT</th>
+                    <th class="border border-slate-300 px-4 py-1 ">Quy cách</th>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Tinh bột</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ 85,0</td>
+                    <td class="border border-slate-300 px-4 py-1">Tinh bột</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≥ 85,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Độ ẩm</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ 13,0</td>
+                    <td class="border border-slate-300 px-4 py-1">Độ ẩm</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≥ 13,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Độ dẻo</td>
-                    <td class="border border-slate-300 px-6 py-1">BU</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ 750</td>
+                    <td class="border border-slate-300 px-4 py-1">Độ dẻo</td>
+                    <td class="border border-slate-300 px-4 py-1">BU</td>
+                    <td class="border border-slate-300 px-4 py-1">≥ 750</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Độ mịn</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ 99,0</td>
+                    <td class="border border-slate-300 px-4 py-1">Độ mịn</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≥ 99,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Tạp chât</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ ,010</td>
+                    <td class="border border-slate-300 px-4 py-1">Tạp chât</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≥ ,010</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Độ trắng</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ 90,0</td>
+                    <td class="border border-slate-300 px-4 py-1">Độ trắng</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≥ 90,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Độ tro</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≤ 0,20</td>
+                    <td class="border border-slate-300 px-4 py-1">Độ tro</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≤ 0,20</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Độ xơ</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≤ 0,50</td>
+                    <td class="border border-slate-300 px-4 py-1">Độ xơ</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≤ 0,50</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">pH</td>
-                    <td class="border border-slate-300 px-6 py-1"></td>
-                    <td class="border border-slate-300 px-6 py-1">0,5 ÷ 7.0</td>
+                    <td class="border border-slate-300 px-4 py-1">pH</td>
+                    <td class="border border-slate-300 px-4 py-1"></td>
+                    <td class="border border-slate-300 px-4 py-1">0,5 ÷ 7.0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">SO2</td>
-                    <td class="border border-slate-300 px-6 py-1">ppm</td>
-                    <td class="border border-slate-300 px-6 py-1">≤ 30,0</td>
+                    <td class="border border-slate-300 px-4 py-1">SO2</td>
+                    <td class="border border-slate-300 px-4 py-1">ppm</td>
+                    <td class="border border-slate-300 px-4 py-1">≤ 30,0</td>
                   </tr>
                 </table>
               </div>
@@ -589,61 +589,61 @@ const Product = () => {
                 </p>
                 <table class="table-auto border-collapse border border-slate-400">
                   <tr>
-                    <th class="border border-slate-300 px-6 py-1  ">
+                    <th class="border border-slate-300 px-4 py-1  ">
                       Chỉ tiêu
                     </th>
-                    <th class="border border-slate-300 px-6 py-1 ">ĐVT</th>
-                    <th class="border border-slate-300 px-6 py-1 ">Quy cách</th>
+                    <th class="border border-slate-300 px-4 py-1 ">ĐVT</th>
+                    <th class="border border-slate-300 px-4 py-1 ">Quy cách</th>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Tinh bột</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ 85,0</td>
+                    <td class="border border-slate-300 px-4 py-1">Tinh bột</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≥ 85,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Độ ẩm</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≤ 13,0</td>
+                    <td class="border border-slate-300 px-4 py-1">Độ ẩm</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≤ 13,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Độ dẻo</td>
-                    <td class="border border-slate-300 px-6 py-1">CPs</td>
-                    <td class="border border-slate-300 px-6 py-1">10 - 3.000</td>
+                    <td class="border border-slate-300 px-4 py-1">Độ dẻo</td>
+                    <td class="border border-slate-300 px-4 py-1">CPs</td>
+                    <td class="border border-slate-300 px-4 py-1">10 - 3.000</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Độ mịn</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ 99,0</td>
+                    <td class="border border-slate-300 px-4 py-1">Độ mịn</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≥ 99,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Tạp chât</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≤ 0,10</td>
+                    <td class="border border-slate-300 px-4 py-1">Tạp chât</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≤ 0,10</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Độ trắng</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ 91,0</td>
+                    <td class="border border-slate-300 px-4 py-1">Độ trắng</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≥ 91,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Độ tro</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≤ 0,20</td>
+                    <td class="border border-slate-300 px-4 py-1">Độ tro</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≤ 0,20</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Độ xơ</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≤ 0,50</td>
+                    <td class="border border-slate-300 px-4 py-1">Độ xơ</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≤ 0,50</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">pH</td>
-                    <td class="border border-slate-300 px-6 py-1"></td>
-                    <td class="border border-slate-300 px-6 py-1">0,5 ÷ 7.0</td>
+                    <td class="border border-slate-300 px-4 py-1">pH</td>
+                    <td class="border border-slate-300 px-4 py-1"></td>
+                    <td class="border border-slate-300 px-4 py-1">0,5 ÷ 7.0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">SO2</td>
-                    <td class="border border-slate-300 px-6 py-1">ppm</td>
-                    <td class="border border-slate-300 px-6 py-1">≤ 30,0</td>
+                    <td class="border border-slate-300 px-4 py-1">SO2</td>
+                    <td class="border border-slate-300 px-4 py-1">ppm</td>
+                    <td class="border border-slate-300 px-4 py-1">≤ 30,0</td>
                   </tr>
                 </table>
               </div>
@@ -677,54 +677,54 @@ const Product = () => {
               </h2>
             </div>
 
-            <div class="grid grid-cols-1 lg:grid-cols-3">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
               <div class="text-[15px]">
                 <p class="mb-2 text-[#019147] font-bold">
                   1. Tiêu chuẩn kĩ thuật
                 </p>
                 <table class="table-auto border-collapse border border-slate-400">
                   <tr>
-                    <th class="border border-slate-300 px-6 py-1  ">
+                    <th class="border border-slate-300 px-4 py-1  ">
                       Chỉ tiêu
                     </th>
-                    <th class="border border-slate-300 px-6 py-1 ">ĐVT</th>
-                    <th class="border border-slate-300 px-6 py-1 ">Quy cách</th>
+                    <th class="border border-slate-300 px-4 py-1 ">ĐVT</th>
+                    <th class="border border-slate-300 px-4 py-1 ">Quy cách</th>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Tinh bột</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ 90,0</td>
+                    <td class="border border-slate-300 px-4 py-1">Tinh bột</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≥ 90,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Độ ẩm</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≤ 8,0</td>
+                    <td class="border border-slate-300 px-4 py-1">Độ ẩm</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≤ 8,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Độ mịn</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ 80,0</td>
+                    <td class="border border-slate-300 px-4 py-1">Độ mịn</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≥ 80,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Tạp chât</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ ,020</td>
+                    <td class="border border-slate-300 px-4 py-1">Tạp chât</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≥ ,020</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Độ trắng</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≥ 80,0</td>
+                    <td class="border border-slate-300 px-4 py-1">Độ trắng</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≥ 80,0</td>
                   </tr>
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">Độ tro</td>
-                    <td class="border border-slate-300 px-6 py-1">%</td>
-                    <td class="border border-slate-300 px-6 py-1">≤ 0,20</td>
+                    <td class="border border-slate-300 px-4 py-1">Độ tro</td>
+                    <td class="border border-slate-300 px-4 py-1">%</td>
+                    <td class="border border-slate-300 px-4 py-1">≤ 0,20</td>
                   </tr>
           
                   <tr>
-                    <td class="border border-slate-300 px-6 py-1">pH</td>
-                    <td class="border border-slate-300 px-6 py-1"></td>
-                    <td class="border border-slate-300 px-6 py-1">0,5 ÷ 7.0</td>
+                    <td class="border border-slate-300 px-4 py-1">pH</td>
+                    <td class="border border-slate-300 px-4 py-1"></td>
+                    <td class="border border-slate-300 px-4 py-1">0,5 ÷ 7.0</td>
                   </tr>
                 </table>
                 <p class="text-[#019147] font-bold my-2 mt-3">2. Đặc tính</p>

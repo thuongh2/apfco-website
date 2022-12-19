@@ -15,8 +15,8 @@ const Login = () => {
                 <div class="text-white col-start-2 col-span-4">
                   <div class="text-[60px] font-semibold">LÀM VIỆC</div>
                   <div class="text-[22px]">
-                    <p>Xin chào, đât là mạng lưới làm việc nội bộ của APFCO</p>
-                    <p>Vui lòng nhập tên tài khoản và mật khẩu để truy cập</p>
+                    <p>Xin chào, đây là mạng lưới làm việc nội bộ của APFCO.</p>
+                    <p>Vui lòng nhập tên tài khoản và mật khẩu để truy cập.</p>
                   </div>
                 </div>
                 <div class="col-start-7 col-span-7">
