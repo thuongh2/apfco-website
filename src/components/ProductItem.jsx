@@ -1,6 +1,7 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import { NavLink } from "react-router-dom";
 
 const responsive = {
   superLargeDesktop: {
@@ -53,67 +54,80 @@ const ProductItem = () => {
         >
           <div>
             <div className="flex justify-center flex-col">
+            <NavLink to="/products">
               <img
                 className="w-[224px] h-[281px]"
                 src="/image/baobi1.png"
                 alt=""
               />
-              <p className="text-center font-medium">Tinh bột sắn APFCO</p>
+
+              </NavLink>
+              <p className="ml-6 font-medium">Tinh bột sắn APFCO</p>
             </div>
           </div>
 
           <div>
             <div className="flex justify-center flex-col">
+            <NavLink to="/products">
               <img
                 className="w-[224px] h-[281px]"
                 src="/image/baobi3.png"
                 alt=""
               />
-              <p className="text-center font-medium">Tinh bột sắn APFCO</p>
+              </NavLink>
+              <p className="ml-6 font-medium">Tinh bột sắn APFCO</p>
             </div>
           </div>
 
           <div>
             <div className="flex justify-center flex-col">
+            <NavLink to="/products">
               <img
                 className="w-[224px] h-[281px]"
                 src="/image/baobi3.png"
                 alt=""
               />
-              <p className="text-center font-medium">Tinh bột sắn APFCO</p>
+              </NavLink>
+              <p className="ml-6 font-medium">Tinh bột sắn APFCO</p>
             </div>
           </div>
 
           <div>
             <div className="flex justify-center flex-col">
+            <NavLink to="/products">
               <img
                 className="w-[224px] h-[281px]"
                 src="/image/baobi4.png"
                 alt=""
               />
-              <p className="text-center font-medium">Tinh bột sắn APFCO</p>
+              </NavLink>
+              <p className="ml-6 font-medium">Tinh bột sắn APFCO</p>
             </div>
           </div>
 
           <div>
             <div className="flex justify-center flex-col">
+            <NavLink to="/products">
               <img
                 className="w-[224px] h-[281px]"
                 src="/image/baobi1.png"
                 alt=""
               />
-              <p className="text-center font-medium">Tinh bột sắn APFCO</p>
+              </NavLink>
+              <p className="ml-4 font-medium">Tinh bột sắn APFCO</p>
             </div>
           </div>
 
           <div>
             <div className="flex justify-center flex-col">
+              <NavLink to="/products">
               <img
                 className="w-[224px] h-[281px]"
                 src="/image/baobi3.png"
                 alt=""
               />
-              <p className="text-center font-medium">Tinh bột sắn APFCO</p>
+              </NavLink>
+              <p className=" ml-4 font-medium">Tinh bột sắn APFCO</p>
             </div>
           </div>
         </Carousel>
