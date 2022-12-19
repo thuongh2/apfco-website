@@ -208,7 +208,7 @@ export default function HeaderTop() {
 
             <NavLink
               to="/"
-              className="text-[14px] font-medium text-[#101828] hover:border-b-4 hover:border-b-rose-600"
+              className="text-[14px] font-medium text-[#101828]"
             >
               Trang chủ
             </NavLink>
